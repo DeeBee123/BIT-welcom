@@ -148,7 +148,7 @@ journey
   <div style="text-align: center; font-weight:bold">
   <img src='/assets/simona.jpg' alt='simonas' style="border-radius:50%; height: 200px; margin: auto"/>
     <h4 > Simona Zimkienė</h4>
-       <span>I-V 08:00 - 17:00</span>
+       <span>I-V 09:00 - 15:00</span>
   </div>
   <div style="text-align: center; font-weight:bold">
  <img src='/assets/vilius.jpg' alt='vilius' style="border-radius:50%; height: 200px; margin: auto"/>
