@@ -23,9 +23,9 @@ drawings:
 css: unocss
 ---
 
-# PHP 2022.12.19
+# JS 2023.01.09
 
-Batijos Technologijų Institutas
+Baltijos Technologijų Institutas
 
 <!-- <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -50,7 +50,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# Programavimo mokykla
+## Programavimo mokykla
 
 ```js
 while(not a programmer){
@@ -68,8 +68,6 @@ while(not a programmer){
       src="/assets/shovel.png"
     />
   </div>
-
- 
 </div>
 
 <!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
@@ -89,75 +87,90 @@ const final = {
 </script>
 
 <ul>
+<span style="color: gold">~20%</span>
 <li> Kiek valandų realaus darbo įdedama</li>
 <li> Kokia asmenybė</li>
-<li> Iš kokios srities atėjote</li>
-<li> Koks dabartinis žinių bagažas</li>
-<li> Ar teisingai įsivaizduojame intern/junior poziciją</li>
-<li> Aplikavimas į darbo pozicijas</li>
+<li> Iš kokios srities atėjote/ Koks dabartinis žinių bagažas</li>
+<li> Ar teisingai įsivaizduojame intern/junior poziciją/algas</li>
+<li> Darbo paieškos </li>
 </ul>
 
 ---
 
-# Programa
+##
 
-Tik oficialų egzaminą laikantys studentais gaus oficialų diplomą. 
-Formaliems studentams 40% egzamino rezultato sudarys bendras įvertinimos vidurkis.
+<div class="w-170 relative mt-6">
+    <img
+      src="/assets/how_learn.png"
+    />
+    <a href="https://survey.stackoverflow.co/2022/#experience-years-code">Šaltinis</a>
+</div>
+
+---
+
+##
+
+<div class="w-170 relative mt-6">
+    <img
+      src="/assets/coding_is_hard.png"
+    />
+</div>
+
+---
+
+## Programa
 
 <div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
 
 ```mermaid {scale: 0.55}
 journey
-    title PHP programa
+    title JS programa
     section Pirmas modulis (8sav.)
-      Front-end: 5: Rimantas
-      Testas (Teorija + Praktika): 5
-    section Antras modulis (2sav.)
-      React: 5: Arvydas
-      Testas (Teorija + Praktika): 5
-    section Trečias modulis (11sav.)
-      PHP: 5: Arvydas
-      DB, Laravel: 5: Arvydas
+      Front-end: 5: Vilius
+    section Antras modulis (3sav.)
+      NodeJS: 5: Vilius
+    section Trečias modulis (10sav.)
+      JS, Express : 5: Mindaugas
+      DB, React: 5: Mindaugas
       Mokykl. egzaminas (Teorija + Praktika): 5
 
 ```
 
 </div>
 <ul style="font-size: 14px">
-<li> <mdi-brain /> Testai - vyks penktadienį po modulio pabaigos. (Privalomi tik formaliems)</li>
-<li> <mdi-book-open-blank-variant />  Mokyklinis egzaminas - gegužės 19d. arba  gegužės 22d. (Privalomas tik formaliems)</li>
-<li> <mdi-school />  Oficialus egzaminas - formaliems studentams, vyksta egzaminų centro nustatytą dieną (įprastai apie 2-3sav. po studijų)</li>
+<li> <mdi-brain /> Testai/Įvertinimai/Sprintai - vyks visu šiuo periodu. </li>
+<li> <mdi-book-open-blank-variant />  Mokyklinis egzaminas - birželio 8d. (dalyvavimas rekomenduotinas)</li>
+<li> <mdi-school />  Oficialus egzaminas - mokamas (217,83 &euro;), vyksta egzaminų centro nustatytą dieną (įprastai apie 2-3sav. po studijų)</li>
 </ul>
 
 ---
 
-# Dėstytojai
+## Dėstytojai
 
-  <div  grid="~ cols-3 gap-2" border="~ gray-400 opacity-50 rounded-md" style="margin: auto">
-<img src='/assets/rimas.png' alt='rimantas belovas'/>
-<img src='/assets/arvydas.png' alt='arvydas kijakauskas'/>
+ <div  grid="~ cols-4 gap-2" border="~ gray-400 opacity-50 rounded-md" style="margin: auto">
+    <img src='/assets/vilius-destytojas.png' alt='Vilius Ramulionis'/>
+    <img src='/assets/mindaugas-destytojas.png' alt='Mindaugas Bernatavicius'/>
+       <img src='/assets/grupe.png' alt='Mindaugas Bernatavicius'/>
  </div>
-
-<img style="width: 20%; margin-top:30px" src='/assets/grupe.png' alt='simonas' />
 
 ---
 
-# Mentoriai
+## Mentoriai
 
   <div  grid="~ cols-3 gap-4" border="~ gray-400 opacity-50 rounded-md">
   <div style="text-align: center; font-weight:bold">
   <img src='/assets/simona.jpg' alt='simonas' style="border-radius:50%; height: 200px; margin: auto"/>
-    <h4 > Simona Zimkienė</h4>
+    <h4>Simona Zimkienė</h4>
        <span>I-V 09:00 - 15:00</span>
   </div>
   <div style="text-align: center; font-weight:bold">
  <img src='/assets/vilius.jpg' alt='vilius' style="border-radius:50%; height: 200px; margin: auto"/>
-    <h4 > Vilius Ramulionis</h4>
+    <h4>Vilius Ramulionis</h4>
        <span>I-V 08:00 - 17:00</span>
   </div>
     <div style="text-align: center; font-weight:bold">
   <img src='/assets/deimante.jpg' alt='deimante' style="border-radius:50%; height: 200px; margin: auto"/>
-    <h4 > Deimantė Barauskaitė</h4>
+    <h4>Deimantė Barauskaitė</h4>
     <span>I-IV 08:00 - 17:00</span>
   </div>
  </div>
@@ -172,14 +185,14 @@ journey
 
 ---
 
-# Tvarkaraštis
+## Tvarkaraštis
 
-|                                                                                                                   |                                                                                                   |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| <kbd>Pirmadienis</kbd> - <kbd>Ketvirtadienis</kbd> <br/><code>12:30 - 14:55 (10min. pertrauka)</code>             | Teorija                                                                                           |
-| <kbd>Pirmadienis</kbd> - <kbd>Ketvirtadienis</kbd> <br/><code>09:00 - 12:00</code><br/><code>15:05 - 16:00</code> | <b>Praktika</b>                                                                                   |
-| <kbd>Penktadienis</kbd>                                                                                           | Praktikos diena (Namų darbų atlikimas / Penktadienio iššūkiai / Testai / Penktadienio pranešimai) |
-| <kbd>Nedarbo dienos</kbd>                                                                                         | Paskaitos nevyksta                                                                                |
+|                                                                                                       |                                                                                                                    |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| <kbd>Pirmadienis</kbd> - <kbd>Ketvirtadienis</kbd> <br/><code>15:00 - 17:25 (10min. pertrauka)</code> | <div grid="~ cols-2 ">Teorija <img src='/assets/theory.png' alt='theory'  style="width:80%" /> </div>              |
+| <kbd>Pirmadienis</kbd> - <kbd>Ketvirtadienis</kbd> <br/><code>10:25 - 15:00 (50min. pertrauka)</code> | <div grid="~ cols-2" > <b>Praktika</b> <img src='/assets/practice.jpeg' alt='practice' style="width:40%" /> </div> |
+| <kbd>Penktadienis</kbd>                                                                               | Praktikos diena (Namų darbų atlikimas / Penktadienio pranešimai)                                                   |
+| <kbd>Nedarbo dienos</kbd>                                                                             | Paskaitos nevyksta                                                                                                 |
 
 ---
 
@@ -189,14 +202,14 @@ journey
 graph LR
 
 B(Studentas išsiskaido uždavinį ir pradeda spręsti) -->C(Pastrigimas)
-C -->|1| D[Ruby duck debugging]
+C -->|1| D[Rubber duck debugging]
  -->|2| E[Google]
  -->|3| F[Kolegos]
  -->|4| G[Mentorius]
 
 ```
 
-<img style="width: 70%" src='/assets/work.png' alt='simonas' />
+<img style="width: 70%" src='/assets/work.png' alt='work' />
 
 ---
 
@@ -208,33 +221,28 @@ C -->|1| D[Ruby duck debugging]
 <li>HR</li>
 </ul>
 
-<img style="width: 70%" src='/assets/pp.png' alt='simonas' />
-
----
-
-## Friday Challenge
-
-Veikla penktadieniais su tikslu išmokti papildomą įrankį Figma ir nepamiršti front-end žinių.
-
-<img style="width: 70%" src='/assets/figmaa.png' alt='simonas' />
+<img style="width: 70%" src='/assets/pp.png' alt='pp' />
 
 ---
 
 ## Lankomumas
 
-Su UŽT finansavimu studijuojantiems studentams:
-
+Žymi dėstytojas. Pavėlavus į paskaitą, pranešti dėstytojui/mentoriui, kad pavėlavote. Su UŽT finansavimu studijuojantiems studentams:
 
 <ul>
 <li>
-Už dienas kai nedalyvaujate paskaitoje, stipendija, transporto išlaidos ir t.t. nebus mokama.
+Už dienas kai nedalyvaujate paskaitoje, stipendija nebus mokama.
 </li>
 <li>
-Praktikos metu svarbu būti pasiekiamam per Teams (online studentams). Praktikos metu svarbu būti BIT patalpose (gyvai lankantiems studentams). 
+Praktikos metu svarbu būti pasiekiamam per Teams.
 </li>
 </ul>
 
-<img style="width: 70%"  src='/assets/lankom.png' alt='simonas' />
+<img style="width: 70%"  src='/assets/lankom.png' alt='lankomum' />
+
+---
+
+## Klausimai?
 
 ---
 
@@ -273,7 +281,13 @@ Laiko taupymui, greitesniam kodo rašymui:
 - 🧑‍💻 **CTRL + L** - Pažymėti dabartinę eilutę
 - 🧑‍💻 **CTRL + SHIFT + Z** - grįžti į vėlesnį pokytį (redo)
 
-VScode shortcuts pdf'ai. <a href="https://vscodethemes.com/?type=dark">VS code temos</a>
+VScode shortcuts pdf'ai.
+
+---
+
+## VScode Extensions
+
+<a href="https://vscodethemes.com/?type=dark">VS code temos</a>
 
 ---
 
@@ -286,6 +300,20 @@ VScode shortcuts pdf'ai. <a href="https://vscodethemes.com/?type=dark">VS code t
 - 📝 **Kursų eigoje tvarkomės CV, linkedin, github**
 - 📝 **Dalyvaujame programavimo renginiuose**
 - 📝 **Neperdegame ir stengiamės nepamesti savo tikslo**
+
+---
+
+## TEAMS
+
+<img src='/assets/microsoft-teams-logo-2.png' alt='teams' style="width: 30%; margin: 20px 0"/>
+
+- Rašyti/skambinti asmeniškai/grupėje
+- Mute/unmute
+- Įrašai
+- Share screen
+- Reactions
+
+\*Nuo asmeninės Teams paskyros (jei tokia yra) reiktų atsijungti ir naudotis tik ...@balticinstitute.onmicrosoft.com paskyra.
 
 ---
 
